@@ -1,0 +1,145 @@
+h1 device  прописать класс
+инпуту прописать класс
+
+
+<div class="">
+	<ul class="navigation">
+		<li><a href="#">Каталог товаров <i class="icon"></i></li>
+	</ul>
+
+	<ul class="navigation">
+		<li><a href="#">Доставка</a></li>
+		<li><a href="#">Гарантия</a></li>
+		<li><a href="#">Контакты</a></li>
+	</ul>
+</div>
+
+<ul>
+	<li><a class="enter" href="#"><i class="icon"></i>Войти</a></li>
+	<li><a href="#"><i class="icon"></i>Cравнить</a></li>
+	<li><a href="#"><i class="icon"></i>Корзина</a></li>
+</ul>
+
+<a class="btn" href="#">подробнее</a>
+
+<table>
+	<tbody>
+		<tr></tr>
+	</tbody>
+	<tfoot>
+		<tr></tr>
+	</tfoot>
+</table>
+
+<div class="slider">
+	<div class="slide-wrapper">
+		<div class="slide-item">
+		1
+		</div>
+		<div class="slide-item">
+		2
+		</div>
+		<div class="slide-item">
+		3
+		</div>
+	</div>
+	<div class="slide-navigation">
+		<a class="active">1</a>
+		<a>2</a>
+		<a>3</a>
+	</div>
+</div>
+
+<div class="goods">
+	<div class="goods-item">
+		<a href=""><img src=""></a>
+		<h4><a href="">Моноподы для селфи</a></h4>
+	</div>
+	<div class="goods-item">
+		<a href=""><img src=""></a>
+		<h4><a href="">Моноподы для селфи</a></h4>
+	</div>
+</div>
+
+<div class="services">
+	<nav class="services-nav">
+		<ul>
+			<li class="active">Доставка</li>
+			<li>Гарантия</li>
+			<li>Кредит</li>
+		</ul>
+	</nav>
+	<div class="services-content">
+	</div>
+</div>
+
+<footer class="main-footer">
+	<div class="container">
+		<div class="main-footer-left">
+			<section class="footer-contacts"></section>
+		</div>
+		<div class="main-footer-center">
+			<nav class="footer-nav">
+				<ul></ul>
+			</nav>
+			<section class="footer-social"></section>
+		</div>
+		<div class="main-footer-right">
+			<nav class="footer-extra-nav"></hav>
+			<section class="contacts">
+				<p>+7(495)495-95-95</p>
+			</section>
+			<section class="footer-copyright">
+	          <img src="http://placehold.it/40x40" width="40" height="40"
+	        </section>
+		</div>
+	</div>
+</footer>
+
+
+bootstrap slider
+
+плохо <b></b>
+хорошо <h6></h6>
+
+<div class="checkbox">
+	<input>
+	<label></label>
+</div>
+
+
+<div class="radio">
+	<input>
+	<label></label>
+</div>
+
+br удалить
+
+show --> btn
+
+<div class="sorting">
+        <h3>Сортировка:</h3>
+	        <ul>
+	          <li class="active">По цене</li>
+	          <li>По типу</li>
+	          <li>По популярности</li>
+	        </ul>
+	        <ul>
+	        	<li class="active"><i class="icon icon-up"></i></li>
+	        	<li><i class="icon icon-down"></i></li>
+	        </ul>
+      </div>
+
+item --> product-item
+label --> h4
+<h4 class="title">
+<strong class="price">
+
+<div class="nav2"> --> <nav class="pagination">
+<a class="active">1</a>
+<a>2</a>
+<a>3</a>
+
+
+bootstrap checkbox
+bootstrap radio
