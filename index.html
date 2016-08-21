@@ -3,51 +3,52 @@
   <head>
     <meta charset="utf-8">
     <title>dvice.ru</title>
+    <link rel="stylesheet" href="css/narmalize.css">
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
-      <h1 class="device">DEVICE</h1>
-      <div class="">
-      	<ul class="navigation">
-      		<li><a href="#">Каталог товаров <i class="icon"></i></li>
-      	</ul>
-      	<ul class="navigation">
-      		<li><a href="#">Доставка</a></li>
-      		<li><a href="#">Гарантия</a></li>
-      		<li><a href="#">Контакты</a></li>
-      	</ul>
-      </div>
-      <div class="Purchase">
-        <ul>
-      	  <li><a class="enter" href="#"><i class="icon"></i>Войти</a></li>
-      	  <li><a href="#"><i class="icon"></i>Cравнить</a></li>
-      	  <li><a href="#"><i class="icon"></i>Корзина</a></li>
-        </ul>
+      <div class="conteiner">
+        <h1 class="device">DEVICE</h1>
+        <div class="purchase">
+          <ul class="navigation-top">
+            <li><input type="text" name="search" class="search"></li>
+        	  <li><a class="enter" href="#"><i class="icon"></i>Войти</a></li>
+            <li><a href="#"><i class="icon"></i>Cравнить</a></li>
+        	  <li><a href="#"><i class="icon"></i>Корзина</a></li>
+          </ul>
+        </div>
+        <div class="second-navigation">
+           <ul class="navigation-bottom">
+             <li><a href="#"><h4>Каталог товаров</h4> <i class="icon"></i></a></li>
+      	     <li><a href="#"><h4>Доставка</h4></a></li>
+      		   <li><a href="#"><h4>Гарантия</h4></a></li>
+      	     <li><a href="#"><h4>Контакты</h4></a></li>
+      	    </ul>
+        </div>
       </div>
     </header>
-    <main>
+    <main class="main-menu">
       <div class="slider">
         <img src="img/slider-1.png" width="384" height="486">
-        <h2>Делай селфи, как Бен Стилер!</h2>
-        <p>Самая длинная палка доступна в нашем магазине.<br> Восемь (Восемь, Карл!) метров длинной и весом всего 5 киллогримм.</p>
-        <a class="btn" href="#">подробнее</a>
-        <table>
-        	<tbody>
-        		<tr>
-              <td><h3>8,5 м</h3></td>
-              <td><h3>5 кг</h3></td>
-              <td><h3>Карбон</h3></td>
-            </tr>
-        	</tbody>
-        	<tfoot>
-        		<tr>
-              <td>Длинна палки</td>
-              <td>Вес палки</td>
-              <td>Материал</td>
-            </tr>
-        	</tfoot>
-        </table>
+        <h2 class="advertising">Делай селфи, как Бен Стилер!</h2>
+        <p class="record_stick">Самая длинная палка для селфи доступна в нашем магазине.<br> Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
+        <a class="more btn" href="#"><h4>подробнее</h4></a>
+        <div class="table">
+          <table class="description">
+        	    <tr>
+                <td><h3>8,5 м</h3></td>
+                <td><h3>5 кг</h3></td>
+                <td><h3>Карбон</h3></td>
+              </tr>
+          		<tr>
+                <td>Длинна палки</td>
+                <td>Вес палки</td>
+                <td>Материал</td>
+              </tr>
+          </table>
+        </div>
       </div>
       <div class="goods">
         <img src="img/spectacles.png" id="spectacles" width="97" height="55">
@@ -63,7 +64,6 @@
         <img src="img/quadrocopter.gif" id="copter"  width="132" height="69">
         <h4><a href="#">Квадрокоптеры</a></h4>
       </div>
-
       <div class="services">
       	<nav class="services-nav">
       		<ul>

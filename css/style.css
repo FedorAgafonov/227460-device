@@ -1,22 +1,175 @@
 body {
-  font-family: normal;
-  line-height: normal;
+  font-family: 'Anton', sans-serif;
+  line-height: auto;
   font-size: 15px;
   color: #000;
 }
 
 h1 {
   font-size: 48px;
-  color: #000000;
   font-weight: bold;
 }
 
 h2 {
   font-size: 47px;
-  color: #000;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 36px;
   font-weight: bold;
 }
 
 h4 {
   font-size: 18px;
+  font-weight: bolder;
+}
+
+h5 {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.main-header ul {
+  margin: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.main-header li {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+.conteiner {
+  width: 1103px;
+  margin: 0 auto;
+  padding-left: 56px;
+}
+
+.device {
+  width: 179px;
+  margin-bottom: 6px;
+}
+
+.second-navigation {
+  min-width: 1039px;
+  margin-right: auto;
+  padding: 0;
+}
+
+.search {
+  width: 110px;
+  height: 10px;
+}
+
+.navigation-top li:nth-child(1) {
+  margin-right: 421px;
+}
+
+.navigation-top li:nth-child(2) {
+  margin-right: 218px;
+}
+
+.navigation-top li:nth-child(3) {
+  margin-right: 40px;
+}
+
+.purchase {
+  min-width: 1039px;
+}
+
+.navigation-bottom {
+  letter-spacing: 4.5px;
+}
+
+.navigation-bottom li:nth-child(1) {
+  margin-left: -38px;
+  margin-right: 325px;
+}
+
+.navigation-bottom li:nth-child(2) {
+  margin-right: 38px;
+}
+
+.navigation-bottom li:nth-child(3) {
+  margin-right: 115px;
+}
+
+
+.main-menu {
+  width: 1158px;
+  margin: auto;
+}
+
+.slider {
+  padding-top: 20px;
+  padding-left: 110px;
+}
+
+ .advertising {
+   width: 395px;
+   float: right;
+   margin-top: 90px;
+   margin-right: 165px;
+}
+
+.record_stick {
+  min-width: 480px;
+  float: right;
+  line-height: 22px;
+  margin-top: -266px;
+  margin-right: 80px;
+  clear: both;
+}
+
+.more {
+  min-height: 18px;
+  float: right;
+  margin-top: -189px;
+  margin-right: 462px;
+}
+
+.table {
+  width: 425px;
+  height: 65px;
+  padding: 0;
+  float: right;
+  margin-top: -72px;
+  /*overflow: hidden;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------*/
+
+body > * {
+  background: rgba(0, 128, 0, 0.2);
+  box-shadow: 0 0 0 3px green;
+}
+
+body > * > * {
+  background: rgba(255, 45, 82, 0.2);
+  box-shadow: 0 0 0 3px rgb(255, 45, 82);
+}
+
+body > * > * > * {
+  background: rgba(234, 255, 45, 0.2);
+  box-shadow: inset 0 0 0 2px rgb(234, 255, 45);
 }
