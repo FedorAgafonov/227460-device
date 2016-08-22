@@ -8,6 +8,7 @@ body {
 h1 {
   font-size: 48px;
   font-weight: bold;
+  margin: 0;
 }
 
 h2 {
@@ -28,6 +29,7 @@ h4 {
 h5 {
   font-size: 13px;
   font-weight: bold;
+  margin: 0;
 }
 
 a {
@@ -48,51 +50,54 @@ a {
   vertical-align: top;
 }
 
-.conteiner {
-  width: 1103px;
+.container {
+  width: 1158px;
   margin: 0 auto;
-  padding-left: 56px;
+  /*padding-left: 56px;*/
 }
 
 .device {
   width: 179px;
   margin-bottom: 6px;
+  margin-left: 60px;
 }
 
 .second-navigation {
   min-width: 1039px;
-  margin-right: auto;
+  margin-right: 60px;
+  margin-left: 60px;
   padding: 0;
 }
 
 .search {
-  width: 110px;
+  width: 108px;
   height: 10px;
 }
 
 .navigation-top li:nth-child(1) {
-  margin-right: 421px;
+  margin-right: 420px;
 }
 
 .navigation-top li:nth-child(2) {
-  margin-right: 218px;
+  margin-right: 238px;
 }
 
 .navigation-top li:nth-child(3) {
-  margin-right: 40px;
+  margin-right: 65px;
 }
 
 .purchase {
   min-width: 1039px;
+  margin: 0 60px;
 }
 
 .navigation-bottom {
-  letter-spacing: 4.5px;
+  letter-spacing: 3px;
 }
 
 .navigation-bottom li:nth-child(1) {
   margin-left: -38px;
-  margin-right: 325px;
+  margin-right: 326px;
 }
 
 .navigation-bottom li:nth-child(2) {
@@ -126,7 +131,7 @@ a {
   float: right;
   line-height: 22px;
   margin-top: -266px;
-  margin-right: 80px;
+  margin-right: 79px;
   clear: both;
 }
 
@@ -134,17 +139,45 @@ a {
   min-height: 18px;
   float: right;
   margin-top: -189px;
-  margin-right: 462px;
+  margin-right: 463px;
 }
 
 .table {
   width: 425px;
   height: 65px;
-  padding: 0;
   float: right;
-  margin-top: -72px;
-  /*overflow: hidden;*/
+  margin-right: 138px;
+  margin-top: -85px;
 }
+
+.table h3 {
+  margin: 0;
+}
+
+.goods {
+  display: inline-block;
+  /*text-align: center;*/
+
+}
+
+figure {
+  width: 158px;
+  height: 235px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  margin-right: 40px;
+}
+
+.goods img:nth-of-type(1) {
+  margin: 52px 110px 90px 30px;
+}
+
+ img#selfie_stick {
+  margin: 43px 36px 35px 38px;
+}
+
+
 
 
 
