@@ -12,8 +12,10 @@
       <div class="container">
         <h1 class="device">DEVICE</h1>
         <div class="purchase">
+          <div class="search">
+            <input type="text" name="search" class="search">
+          </div>
           <ul class="navigation-top">
-            <li><input type="text" name="search" class="search"></li>
         	  <li><a class="enter" href="#"><i class="icon"></i>Войти</a></li>
             <li><a href="#"><i class="icon"></i>Cравнить</a></li>
         	  <li><a href="#"><i class="icon"></i>Корзина</a></li>
@@ -81,55 +83,46 @@
         </div>
         <div class="services">
         	<nav class="services-nav">
-        		<ul>
-        			<li class="active">Доставка</li>
-        			<li>Гарантия</li>
-        			<li>Кредит</li>
+        		<ul class="function">
+        			<li class="active"><a href="#"><h4>Доставка</h4></a></li>
+        			<li><a href="#"><h4>Гарантия</h4></a></li>
+        			<li><a href="#"><h4>Кредит</h4></a></li>
         		</ul>
         	</nav>
         	<div class="services-content">
-            <p>Мы с удовольствием доставим ваш товар к вашему подъезду совершенно бесплатно! Ведь мы не плохо заработаем, поднимая его на ваш этаж.</p>
-            <img src="img/delivery.png" width="136" height="164">
+            <h2 class="heading-content">Доставка</h2>
+            <p class="text-content">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы не плохо заработаем, поднимая его на ваш этаж.</p>
+            <img src="img/delivery.png" id="delivery" width="136" height="164">
         	</div>
         </div>
-
-        <!--<div class="services">
-          <ul>
-            <li>Доставка</li>
-            <li>Гарантия</li>
-            <li>Кредит</li>
-          </ul>
-          <h2>Доставка</h2>
-          <p>Мы с удовольствием доставим ваш товар к вашему подъезду совершенно бесплатно! Ведь мы не плохо заработаем, поднимая его на ваш этаж.</p>
-          <img src="http://placehold.it/150x200" width="150" height="200">
-        </div>-->
         <div class="brands">
-          <img src="img/logo_dgi.gif" width="260" height="100">
-          <img src="img/logo_sp.gif" width="260" height="100">
-          <img src="img/logo_GoPro.png" width="260" height="100">
-          <img src="img/logo_vive.gif" width="260" height="100">
+          <img src="img/logo_dgi.gif" id="dji" width="260" height="100">
+          <img src="img/logo_sp.gif"  id="sp" width="260" height="100">
+          <img src="img/logo_GoPro.png" id="GoPro" width="260" height="100">
+          <img src="img/logo_vive.gif" id="vive" width="260" height="100">
         </div>
-        <div class="about_us">
-          <h2>Про нас</h2>
-          <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
-          <p>Мы можем доставитьть ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями:</p>
-          <ul>
-            <li><strong>Деловые Линии</strong></li>
-            <li><strong>Автотрейдинг</strong></li>
-            <li><strong>ЖелДорЭкспедиция</strong></li>
-          </ul>
-          <a class="btn" href="#">Подробнее о нас</a>
-        </div>
-
-        <div class="contacts">
-          <h2>Контакты</h2>
-          <p>Вы можете забрать товар сами, заехав в наш офис. Заодно можете проверить работоспобность покупки. Всякое бывает.</p>
-          <img src="img/map.jpg" width="560" height="222"><br>
-          <a href="#">Напиши нам</a>
+        <div class="clearfix">
+          <div class="about-us">
+            <h2>О нас</h2>
+            <p class="our-goods">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+            <p class="displacement">Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
+            <ul>
+              <li><strong>Деловые Линии</strong></li>
+              <li><strong>Автотрейдинг</strong></li>
+              <li><strong>ЖелДорЭкспедиция</strong></li>
+            </ul>
+            <a class="btn" href="#"><h4>подробнее о нас</h4></a>
+          </div>
+          <div class="contacts">
+            <h2>Контакты</h2>
+            <p>Вы можете забрать товар сами, заехав в наш офис. Заодно можете проверить работоспобность покупки. Всякое бывает.</p>
+            <img src="img/map.jpg" width="560" height="222"><br>
+            <a href="#"><h4>напиши нам</h4></a>
+          </div>
         </div>
       </main>
-      <footer class="main-footer">
-      	<div class="container">
+      <footer class="main-footer clearfix">
+      	<div class="container clearfix">
       		<div class="main-footer-left">
       			<section class="footer-contacts">
               <h1>Device</h1>
@@ -139,9 +132,9 @@
       		<div class="main-footer-center">
       			<nav class="footer-nav">
               <ul class="navigation-bottom">
-            		<li><a href="#">Доставка</a></li>
-            		<li><a href="#">Гарантия</a></li>
-            		<li><a href="#">Контакты</a></li>
+            		<li><a href="#"><h4>Гарантия</h4></a></li>
+            		<li><a href="#"><h4>Контакты</h4></a></li>
+                <li><a href="#"><h4>Доставка</h4></a></li>
             	</ul>
       			</nav>
       			<section class="footer-social">
