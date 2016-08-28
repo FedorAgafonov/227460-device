@@ -1,3 +1,15 @@
+@font-face {
+    font-family: Scriptorama; /* имя шрифта для CSS правил */
+    src: local("Gilroy"), /* проверяем наличие шрифта в ОС пользователя */
+         url(fonts/gilroy); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
+  @font-face {
+      font-family: Scriptorama; /* имя шрифта для CSS правил */
+      src: local("open_sans"), /* проверяем наличие шрифта в ОС пользователя */
+           url(fonts/gilroy); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
 body {
   font-family: 'Anton', sans-serif;
   line-height: auto;
@@ -9,27 +21,36 @@ h1 {
   font-size: 48px;
   font-weight: bold;
   margin: 0;
+  font-family: 'Gilroy';
 }
 
 h2 {
   font-size: 47px;
   font-weight: bold;
+  font-family: 'Gilroy';
 }
 
 h3 {
   font-size: 36px;
   font-weight: bold;
+  font-family: 'Gilroy';
 }
 
 h4 {
   font-size: 18px;
   font-weight: bolder;
+  font-family: 'Gilroy';
 }
 
 h5 {
   font-size: 13px;
   font-weight: bold;
   margin: 0;
+  font-family: 'Gilroy';
+}
+
+p {
+  font-family: 'open_sans';
 }
 
 a {
@@ -81,7 +102,7 @@ a {
 }
 
 .navigation-top li:nth-child(2) {
-  margin-left: 208px;
+  margin-left: 205px;
 }
 
 .navigation-top li:nth-child(3) {
@@ -145,15 +166,24 @@ a {
 }
 
 .table {
-  width: 425px;
+  max-width: 425px;
   height: 65px;
   float: right;
   margin-right: 141px;
   margin-top: -85px;
 }
 
-table td {
-  width: px;
+.bottom  {
+  font-family: 'open_sans';
+  font-size: 13px;
+}
+
+td {
+  width: 160px;
+}
+
+.top h3 {
+  font-family: 'light';
 }
 
 .table h3 {
@@ -216,7 +246,9 @@ img#copter {
 
 .services-content {
   width: 820px;
+  height: 340px;
   float: right;
+  margin-bottom: 27px;
 }
 
 .services-nav ul {
@@ -233,20 +265,20 @@ img#copter {
 }
 
 .text-content {
-  width: 426px;
+  width: 400px;
   height: 77px;
-  line-height: 18px;
+  line-height: 30px;
 }
 
 .heading-content {
   margin: 0;
   margin-top: 136px;
-  margin-bottom: 36px;
+  margin-bottom: 28px;
 }
 
 img#delivery {
   float: right;
-  margin-top: -145px;
+  margin-top: -160px;
   margin-right: 65px;
 }
 
@@ -290,18 +322,28 @@ img#GoPro {
   margin-bottom: 84px;
 }
 
+.more_us {
+  margin-left: 10px;
+}
+
+.clearfix a {
+  max-width: 260px;
+}
+
 .about-us ul {
   margin-left: -10px;
   list-style: none;
   line-height: 27px;
 }
 
-.about-us a {
-}
-
 .clearfix .contacts {
   width: 560px;
   float: right;
+}
+
+.clearfix .btn {
+  width: 160px;
+  margin-top: 47px;
 }
 
 .clearfix::after {
@@ -313,6 +355,10 @@ img#GoPro {
 
 footer {
   margin-top: 95px;
+}
+
+footer h4 {
+  letter-spacing: 3px;
 }
 
 .footer-contacts h1 {
@@ -333,7 +379,7 @@ footer {
   margin-left: 158px;
 }
 
-.navigation-bottom h4 {
+footer .navigation-bottom h4 {
   margin: 0;
 }
 
@@ -359,6 +405,19 @@ footer {
   float: right;
 }
 
+.footer-nav li:nth-child(1) {
+  margin-left: -35px;
+}
+
+.footer-nav li:nth-child(2) {
+  margin-left: 38px;
+}
+
+.footer-nav li:nth-child(3) {
+  margin-left: 50px;
+}
+
+
 
 
 
@@ -377,14 +436,4 @@ body > * > * {
 body > * > * > * {
   background: rgba(234, 255, 45, 0.2);
   box-shadow: inset 0 0 0 2px rgb(234, 255, 45);
-}
-/*
-body > * > * > * > * {
-  background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 45, 82);
-}
-/*
-body > * > * > * > * > * {
-  background: rgba(0, 128, 0, 0.2);
-  box-shadow: 0 0 0 3px green;
 }
