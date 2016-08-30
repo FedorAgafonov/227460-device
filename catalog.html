@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <title>dvice.ru</title>
     <link rel="stylesheet" href="css/narmalize.css">
-    <link href="css/style_for_catolog.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <div class="container">
-        <h1 class="device">DEVICE</h1>
+        <h2 class="device">DEVICE</h2>
         <div class="purchase">
           <div class="search">
             <input type="text" name="search" class="search">
@@ -34,7 +34,7 @@
     </header>
     <main class="menu clearfix">
       <div class="container clearfix">
-        <h2 class="monopods">Моноподы для селфи</h2>
+        <h1 class="monopods">Моноподы для селфи</h1>
         <div  class="breadcrumbs">
           <a href="#">Главная</a>
           <a href="#">Котолог товаров</a>
@@ -43,9 +43,9 @@
         <div class="filters">
           <h4 class="name-filters">Фильтр:</h4>
           <div class="range">
-            <span>
-              <h5 class="cost">Стоимость:</h5>
-            </span>
+            <!--<span>-->
+              <h5 class="costs">Стоимость:</h5>
+            <!--</span>-->
             <div class="line_grey">
               <div class="line_green"></div>
             </div>
@@ -54,20 +54,18 @@
               <p>до 5000</p>
             </div>
           </div>
-          <div class="colors">
-            <span class="color">
-              <h5>Цвет:</h5>
-            </span>
-            <input type="checkbox" name="color1" id="checkbox-id" checked>
-            <label for="color1">Черный</label><br>
-            <input type="checkbox" name="color2" id="checkbox-id">
-            <label for="color2">Белый</label><br>
-            <input type="checkbox" name="color3" id="checkbox-id" checked>
-            <label for="color3">Синий</label><br>
-            <input type="checkbox" name="color4" id="checkbox-id" checked>
-            <label for="color4">Красный</label><br>
-            <input type="checkbox" name="color5" id="checkbox-id">
-            <label for="color5">Розовый</label><br>
+          <div class="color">
+            <h5>Цвет:</h5><!--checkbox-id-->
+            <input type="checkbox" name="color1" id="black" checked>
+            <label>Черный</label><br>
+            <input type="checkbox" name="color2" id="white">
+            <label>Белый</label><br>
+            <input type="checkbox" name="color3" id="blue" checked>
+            <label>Синий</label><br>
+            <input type="checkbox" name="color4" id="red" checked>
+            <label>Красный</label><br>
+            <input type="checkbox" name="color5" id="pink">
+            <label>Розовый</label><br>
           </div>
           <h5 class="question-bt">Bluetooth</h5><br>
           <div class="question">
@@ -87,29 +85,29 @@
           </ul>
         </div>
         <div class="product-item">
-          <span class="Stick">
-            <img src="img/Stick.jpg" id="Stick" width="360" height="380">
-            <h4>Любительская селфи-палка 500р</h4><br>
-          </span>
-          <span class="Smart_stick">
-            <img src="img/Smart_stick.jpg" id="Smart_stick" width="360" height="380">
-            <h4>Профессиональная селфи-палка 1500р</h4><br>
-          </span>
-          <span class="Water_stick">
-            <img src="img/Water_stick.jpg" id="Water_stick" width="360" height="380">
-            <h4>Непотопляемая селфи-палка 2500р</h4><br>
-          </span>
-          <span class="Arm_stick">
-            <img src="img/Arm_stick.jpg" id="Arm_stick" width="360" height="380">
-            <h4>Селфи-палка "Следуй за мной" 4900р</h4><br>
-          </span>
+          <div class="Stick">
+            <img src="img/Stick.jpg" id="Stick" width="360" height="380" alt="Stick">
+            <h4>Любительская селфи-палка 500р</h4>
+          </div>
+          <div class="Smart_stick">
+            <img src="img/Smart_stick.jpg" id="Smart_stick" width="360" height="380" alt="Smart_stick">
+            <h4>Профессиональная селфи-палка 1500р</h4>
+          </div>
+          <div class="Water_stick">
+            <img src="img/Water_stick.jpg" id="Water_stick" width="360" height="380" alt="Water_stick">
+            <h4>Непотопляемая селфи-палка 2500р</h4>
+          </div>
+          <div class="Arm_stick">
+            <img src="img/Arm_stick.jpg" id="Arm_stick" width="360" height="380" alt="Arm_stick">
+            <h4>Селфи-палка "Следуй за мной" 4900р</h4>
+          </div>
         </div>
         <nav class="pagination">
           <a class="prev_disabled" href="#prev"><h4>Назад</h4></a>
           <a href="#" class="active"><h4>1</h4></a>
           <a href="#" class="two"><h4>2</h4></a>
           <a href="#" class="three"><h4>3</h4></a>
-          <a class="next" href="#next" class="next"><h4>Вперёд</h4></a>
+          <a class="next" href="#next"><h4>Вперёд</h4></a>
         </nav>
       </div>
     </main>
@@ -117,39 +115,38 @@
         <div class="container clearfix">
           <div class="main-footer-left">
             <section class="footer-contacts">
-              <h1>Device</h1>
+              <h2>DEVICE</h2>
               г. Москва, у. Строителей, 15
             </section>
           </div>
-          <div class="main-footer-center">
-            <nav class="footer-nav">
-              <ul class="footer-navigation-bottom">
-                <li><a href="#"><h4>Доставка</h4></a></li> 
-                <li><a href="#"><h4>Гарантия</h4></a></li>
-                <li><a href="#"><h4>Контакты</h4></a></li>
-              </ul>
-            </nav>
-            <section class="footer-social">
-              <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-              <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-              <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-            </section>
-          </div>
-          <div class="main-footer-right">
-            <nav class="footer-extra-nav">
-              <ul>
-                <li><a class="social-btn social-btn-vk" href="#">Войти</a></li>
-                <li><a class="social-btn social-btn-fb" href="#">Сравнить</a></li>
-                <li><a class="social-btn social-btn-inst" href="#">Корзина</a></li>
-              </ul>
-            </nav>
-            <section class="contacts_namber">
-              <p>+7(495)495-95-95</p>
-            </section>
-            <section class="footer-copyright">
-              <img src="img/icon_htmlacademy.svg" width="27" height="34"
-            </section>
-          </div>
+        <div class="main-footer-center">
+          <nav class="footer-nav">
+            <ul class="footer-navigation-bottom">
+              <li><a href="#"><h4>Доставка</h4></a></li>
+              <li><a href="#"><h4>Гарантия</h4></a></li>
+              <li><a href="#"><h4>Контакты</h4></a></li>
+            </ul>
+          </nav>
+          <section class="footer-social">
+            <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+            <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          </section>
+        </div>
+        <div class="main-footer-right">
+          <nav class="footer-extra-nav">
+            <ul>
+              <li><a class="social-btn social-btn-vk" href="#">Войти</a></li>
+              <li><a class="social-btn social-btn-fb" href="#">Сравнить</a></li>
+              <li><a class="social-btn social-btn-inst" href="#">Корзина</a></li>
+            </ul>
+          </nav>
+          <section class="contacts_namber">
+            <p>+7(495)495-95-95</p>
+          </section>
+          <section class="footer-copyright">
+            <img src="img/icon_htmlacademy.svg" width="27" height="34" alt="htmlacademy_copyright">
+          </section>
         </div>
       </div>
     </footer>

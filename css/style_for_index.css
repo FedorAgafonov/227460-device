@@ -19,32 +19,27 @@ body {
 
 h1 {
   font-size: 48px;
-  font-weight: bold;
   margin: 0;
   font-family: 'Gilroy';
 }
 
 h2 {
   font-size: 47px;
-  font-weight: bold;
   font-family: 'Gilroy';
 }
 
 h3 {
   font-size: 36px;
-  font-weight: bold;
   font-family: 'Gilroy';
 }
 
 h4 {
   font-size: 18px;
-  font-weight: bolder;
   font-family: 'Gilroy';
 }
 
 h5 {
   font-size: 13px;
-  font-weight: bold;
   margin: 0;
   font-family: 'Gilroy';
 }
@@ -131,12 +126,6 @@ a {
   margin-right: 115px;
 }
 
-
-.main-menu {
-  width: 1158px;
-  margin: auto;
-}
-
 .slider {
   padding-top: 20px;
   padding-left: 88px;
@@ -190,8 +179,28 @@ td {
   margin: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .goods {
   display: inline-block;
+}
+
+
+.main-all {
+  width: 1158px;
+  margin: auto;
 }
 
 figure {
@@ -238,6 +247,15 @@ img#whatch {
 img#copter {
   margin: 49px 15px 81px 13px;
 }
+
+
+
+
+
+
+
+
+
 
 .services-nav {
   width: 278px;
@@ -352,6 +370,25 @@ img#GoPro {
   display: table;
   clear: both;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
   margin-top: 95px;

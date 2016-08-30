@@ -17,13 +17,13 @@ body {
   color: #000;
 }
 
-h1 {
+h2 {
   font-size: 48px;
   margin: 0;
   font-family: 'Gilroy';
 }
 
-h2 {
+h1 {
   font-size: 47px;
   font-family: 'Gilroy';
 }
@@ -144,11 +144,6 @@ a {
   margin-right: 115px;
 }
 
-.main-menu {
-  width: 1158px;
-  margin: auto;
-}
-
 .monopods {
   width: 1040px;
   height: 92px;
@@ -157,7 +152,7 @@ a {
 
 .breadcrumbs {
   width: 1040px;
-  margin: -41px 0 0 60px;
+  margin: -33px 0 0 60px;
 }
 
 .breadcrumbs a {
@@ -174,6 +169,7 @@ a {
   height: 2px;
   background-color: rgb(219, 219, 219);
   margin-left: 4px;
+  margin-top: 41px;
 }
 
 .line_green {
@@ -195,7 +191,7 @@ a {
 }
 
 .cost {
-  margin-bottom: 37px;
+  margin-bottom: 41px;
 }
 
 .labels p {
@@ -213,7 +209,7 @@ a {
   margin-bottom: 37px;
 }
 
-input#checkbox-id {
+.color input {
   margin-bottom: 17px;
   margin-right: 18px;
 }
@@ -273,6 +269,7 @@ button {
 
 .product-item h4 {
   margin-top: 31px;
+  margin-bottom: 41px;
 }
 
 .Stick {
@@ -326,6 +323,24 @@ button {
   margin-left: 238px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 footer {
   margin-top: 95px;
 }
