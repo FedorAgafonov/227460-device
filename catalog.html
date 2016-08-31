@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
+<hvtml lang="ru">
   <head>
     <meta charset="utf-8">
     <title>dvice.ru</title>
     <link rel="stylesheet" href="css/narmalize.css">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style_for_index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
@@ -42,20 +42,25 @@
         </div>
         <div class="filters">
           <h4 class="name-filters">Фильтр:</h4>
-          <div class="range">
-            <!--<span>-->
+          <div class="chain">
+            <span>
               <h5 class="costs">Стоимость:</h5>
-            <!--</span>-->
+            </span>
             <div class="line_grey">
-              <div class="line_green"></div>
-            </div>
-            <div class="labels">
-              <p>от 0</p>
-              <p>до 5000</p>
+              <div class="line_green">
+                <div class="circles circle_1">
+                  <p>от 0</p>
+                </div>
+                <div class="circles circle_2">
+                  <!--<img src="img/icon_Shape.gif" width="14" height="14" alt="circle">-->
+                  <p>до 5000</p>
+                </div>
+              </div>
             </div>
           </div>
+
           <div class="color">
-            <h5>Цвет:</h5><!--checkbox-id-->
+            <h5>Цвет:</h5>
             <input type="checkbox" name="color1" id="black" checked>
             <label>Черный</label><br>
             <input type="checkbox" name="color2" id="white">
@@ -79,9 +84,9 @@
         <div class="sorting">
           <h4>Сортировка:</h4>
           <ul>
-            <li>По цене</li>
-            <li>По типу</li>
-            <li>По популярности</li>
+            <li><a href="#">По цене</a></li>
+            <li><a href="#">По типу</a></li>
+            <li><a href="#">По популярности</a></li>
           </ul>
         </div>
         <div class="product-item">

@@ -1,17 +1,28 @@
 @font-face {
-    font-family: Scriptorama; /* имя шрифта для CSS правил */
-    src: local("Gilroy"), /* проверяем наличие шрифта в ОС пользователя */
-         url(fonts/gilroy); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+  font-family: Gilroyextrabold; /* имя шрифта для CSS правил */
+  src: local("Gilroyextrabold.ttf"), /* проверяем наличие шрифта в ОС пользователя */
+     url(../fonts/gilroy/Gilroyextrabold.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
 }
 
-  @font-face {
-      font-family: Scriptorama; /* имя шрифта для CSS правил */
-      src: local("open_sans"), /* проверяем наличие шрифта в ОС пользователя */
-           url(fonts/gilroy); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+@font-face {
+  font-family: Gilroylight;
+  src: local("Gilroylight.ttf"),
+    url(../fonts/gilroy/Gilroylight.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Light;
+  src: local("OpenSans-Light.ttf"),
+    url(../fonts/open_sans/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: local("OpenSans-Regular.ttf"),
+    url(../fonts/open_sans/OpenSans-Regular.ttf);
 }
 
 body {
-  font-family: 'Anton', sans-serif;
   line-height: auto;
   font-size: 15px;
   color: #000;
@@ -20,32 +31,32 @@ body {
 h1 {
   font-size: 48px;
   margin: 0;
-  font-family: 'Gilroy';
+  font-family: 'Gilroyextrabold';
 }
 
 h2 {
   font-size: 47px;
-  font-family: 'Gilroy';
+  font-family: 'Gilroyextrabold';
 }
 
 h3 {
   font-size: 36px;
-  font-family: 'Gilroy';
+  font-family: 'Gilroyextrabold';
 }
 
 h4 {
   font-size: 18px;
-  font-family: 'Gilroy';
+  font-family: 'Gilroyextrabold';
 }
 
 h5 {
   font-size: 13px;
   margin: 0;
-  font-family: 'Gilroy';
+  font-family: 'Gilroyextrabold';
 }
 
 p {
-  font-family: 'open_sans';
+  font-family: 'OpenSans-Light';
 }
 
 a {
@@ -131,7 +142,7 @@ a {
   padding-left: 88px;
 }
 
- .advertising {
+.advertising {
    width: 395px;
    float: right;
    margin-top: 90px;
@@ -163,7 +174,7 @@ a {
 }
 
 .bottom  {
-  font-family: 'open_sans';
+  font-family: 'OpenSans-Light';
   font-size: 13px;
 }
 
@@ -172,31 +183,16 @@ td {
 }
 
 .top h3 {
-  font-family: 'light';
+  font-family: 'OpenSans-Light';
 }
 
 .table h3 {
   margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .goods {
   display: inline-block;
 }
-
 
 .main-all {
   width: 1158px;
@@ -247,15 +243,6 @@ img#whatch {
 img#copter {
   margin: 49px 15px 81px 13px;
 }
-
-
-
-
-
-
-
-
-
 
 .services-nav {
   width: 278px;
@@ -371,24 +358,203 @@ img#GoPro {
   clear: both;
 }
 
+.monopods {
+  width: 1040px;
+  height: 92px;
+  margin-left: 60px;
+}
 
+.breadcrumbs {
+  width: 1040px;
+  margin: -33px 0 0 60px;
+}
 
+.breadcrumbs a {
+  font-size: 14px;
+  margin-right: 34px;
+}
 
+.breadcrumbs a:last-child {
+  margin: 0;
+}
 
+.line_grey {
+  width: 196px;
+  height: 2px;
+  background-color: rgb(219, 219, 219);
+  margin-left: 4px;
+  margin-top: 41px;
+  margin-bottom: 85px;
+}
 
+.line_green {
+  position: relative;
+  width: 110px;
+  height: 2px;
+  background: rgb(145, 201, 47);
+}
 
+.circles p {
+  opacity: .2;
+  font-size: 14px;
+}
 
+.circle_1 {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+}
 
+.circle_2 {
+  position: absolute;
+  top: -6px;
+  left: 106px;
+}
 
+.filters {
+  width: 268px;
+  height: 1284px;
+  margin-top: 80px;
+  margin-left: 60px;
+  float: left;
+}
 
+.name-filters {
+  margin-bottom: 84px;
+}
 
+.cost {
+  margin-bottom: 41px;
+}
 
+.labels p {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 13px;
+  opacity: .2;
+}
 
+.labels p:last-child {
+  margin-left: 63px;
+}
 
+.color h5 {
+  margin-bottom: 37px;
+}
 
+.color input {
+  margin-bottom: 17px;
+  margin-right: 18px;
+}
 
+input#checkbox-id:nth-of-type(5) {
+  margin-bottom: 58px;
+}
 
+.question input:nth-of-type(1) {
+  margin-bottom: 16px;
+}
 
+.question input {
+  margin-right: 18px;
+}
+
+.question-bt {
+  margin-bottom: 7px;
+}
+
+button {
+  margin-top: 53px;
+}
+
+.sorting {
+  width: 830px;
+  height: 70px;
+  float: left;
+  margin-top: 80px;
+  /*margin-left: 30px;*/
+}
+
+.sorting li {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -43px;
+}
+
+.sorting li:nth-child(1) {
+  margin-left: 160px;
+}
+
+.sorting li:nth-child(2) {
+  margin-left: 29px;
+}
+
+.sorting li:nth-child(3) {
+  margin-left: 31px;
+}
+
+.product-item {
+  margin: 70px 0 0 70px;
+  width: 760px;
+  height: 1001px;
+  float: right;
+}
+
+.product-item h4 {
+  margin-top: 31px;
+  margin-bottom: 41px;
+}
+
+.Stick {
+  float: left;
+}
+
+.Smart_stick {
+  margin-top: 0px;
+  float: right;
+}
+
+.Water_stick {
+  float: left;
+  margin-top: 28px;
+}
+
+.Arm_stick {
+  float: right;
+  margin-top: 28px;
+}
+
+.pagination {
+  float: right;
+  width: 760px;
+  height: 70px;
+  margin-top: -2px;
+}
+
+.pagination a {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.prev_disabled {
+  margin-left: 30px;
+}
+
+.active {
+  margin-left: 240px;
+}
+
+.two {
+  margin-left: 31px;
+}
+
+.three {
+  margin-left: 26px;
+}
+
+.next {
+  margin-left: 238px;
+}
 
 footer {
   margin-top: 95px;
@@ -459,7 +625,7 @@ footer .navigation-bottom h4 {
 
 
 /*--------------------------*/
-
+/*
 body > * {
   background: rgba(0, 128, 0, 0.2);
   box-shadow: 0 0 0 3px green;
