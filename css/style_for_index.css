@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 47px;
   margin: 0;
   font-family: 'Gilroyextrabold';
 }
@@ -56,12 +56,16 @@ h5 {
 }
 
 p {
-  font-family: 'OpenSans-Light';
+  font-family: 'OpenSans-Regular';
 }
 
 a {
   color: #000;
   text-decoration: none;
+}
+
+.main-header {
+  margin-top: 60px;
 }
 
 .main-header ul {
@@ -77,16 +81,24 @@ a {
   vertical-align: top;
 }
 
+.index {
+  width: 10px 10px;
+  background: rgb(247, 226, 150);
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
-  /*padding-left: 56px;*/
 }
 
 .device {
+  margin: 0;
   width: 179px;
-  margin-bottom: 6px;
-  margin-left: 60px;
+  margin-top: -50px;
+  margin-bottom: -3px;
+  margin-left: 57px;
+  font-size: 48px;
+  font-family: 'Gilroyextrabold';
 }
 
 .second-navigation {
@@ -98,55 +110,67 @@ a {
 
 .search {
   width: 108px;
-  height: 10px;
-  margin-top: 10px;
+  height: 15px;
+  margin-top: 12px;
   margin-left: 20px;
 }
 
+.navigation-top {
+  font-family: 'OpenSans-Light';
+  letter-spacing: -.5px;
+}
+
 .navigation-top li:nth-child(1) {
-  margin-left: 527px;
+  margin-left: 530px;
 }
 
 .navigation-top li:nth-child(2) {
-  margin-left: 205px;
+  margin-left: 229px;
 }
 
 .navigation-top li:nth-child(3) {
-  margin-left: 55px;
+  margin-left: 63px;
 }
 
 .purchase {
   min-width: 1039px;
   margin: 0 58px;
+  margin-bottom: 22px;
 }
 
 .navigation-bottom {
+  margin-top: 54px;
   letter-spacing: 3px;
+  text-transform: uppercase;
+  word-spacing: 12px;
 }
 
 .navigation-bottom li:nth-child(1) {
-  margin-left: -38px;
-  margin-right: 326px;
+  margin-left: -39px;
 }
 
 .navigation-bottom li:nth-child(2) {
-  margin-right: 38px;
+  margin-left: 307px;
 }
 
 .navigation-bottom li:nth-child(3) {
-  margin-right: 115px;
+  margin-left: 20px;
+}
+
+.navigation-bottom li:nth-child(4) {
+  margin-left: 95px;
 }
 
 .slider {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-left: 88px;
 }
 
 .advertising {
-   width: 395px;
+   width: 370px;
    float: right;
-   margin-top: 90px;
-   margin-right: 171px;
+   margin-top: 79px;
+   margin-right: 170px;
 }
 
 .record_stick {
@@ -154,7 +178,7 @@ a {
   float: right;
   line-height: 22px;
   margin-top: -266px;
-  margin-right: 85px;
+  margin-right: 49px;
   clear: both;
 }
 
@@ -358,20 +382,53 @@ img#GoPro {
   clear: both;
 }
 
+.header {
+  background: rgb(247, 226, 150);
+  background-size: 1160px  1186px;
+}
+
+.navigation-top-catalog {
+  margin-bottom: 54px;
+  font-family: 'OpenSans-Light';
+  letter-spacing: -.5px;
+}
+
+.navigation-top-catalog li:nth-child(1) {
+  margin-left: 530px;
+}
+
+.navigation-top-catalog li:nth-child(2) {
+  margin-left: 19px;
+  opacity: .3;
+}
+
+.navigation-top-catalog li:nth-child(3) {
+  margin-left: 84px;
+}
+
+.navigation-top-catalog li:nth-child(4) {
+  margin-left: 64px;
+}
+
 .monopods {
   width: 1040px;
-  height: 92px;
+  height: 82px;
   margin-left: 60px;
+  margin-top: 60px;
 }
 
 .breadcrumbs {
   width: 1040px;
-  margin: -33px 0 0 60px;
+  margin: -2px 0 0 60px;
 }
 
 .breadcrumbs a {
   font-size: 14px;
   margin-right: 34px;
+}
+
+.breadcrumbs a:first-child {
+  margin-left: 2px;
 }
 
 .breadcrumbs a:last-child {
@@ -625,7 +682,7 @@ footer .navigation-bottom h4 {
 
 
 /*--------------------------*/
-/*
+
 body > * {
   background: rgba(0, 128, 0, 0.2);
   box-shadow: 0 0 0 3px green;
@@ -639,4 +696,14 @@ body > * > * {
 body > * > * > * {
   background: rgba(234, 255, 45, 0.2);
   box-shadow: inset 0 0 0 2px rgb(234, 255, 45);
+}
+
+body > * > * > * > * {
+  background: rgba(255, 45, 82, 0.2);
+  box-shadow: 0 0 0 3px rgb(255, 45, 82);
+}
+
+body > * > * > * > * > * {
+  background: rgba(0, 128, 0, 0.2);
+  box-shadow: 0 0 0 3px green;
 }
