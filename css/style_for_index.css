@@ -109,7 +109,7 @@ a {
 .search {
   position: relative;
   width: 108px;
-  height: 8px;
+  height: 7px;
   margin-top: 12px;
   margin-left: 20px;
 }
@@ -117,12 +117,13 @@ a {
 .search::before {
   content: "";
   position: absolute;
-  top: 12px;
+  top: 11px;
   left: -15px;
   width: 16px;
   height: 16px;
 
-  background: #ff0000;
+  background: transparent url('../img/SPRITE.png') no-repeat;
+  background-position: -22px -22px;
 }
 
 .navigation-top {
