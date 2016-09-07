@@ -66,6 +66,7 @@ a {
 .main-header {
   width: 1158px;
   margin-top: 60px;
+  margin: 16px auto;
 }
 
 .main-header ul {
@@ -570,7 +571,7 @@ img#GoPro {
 .monopods {
   width: 1040px;
   height: 82px;
-  margin-left: 128px;
+  margin-left: 198px;
   margin-top: 33px;
 }
 
@@ -732,15 +733,15 @@ main {
   background: rgb(219, 219, 219);
   padding-top: 24px;
   padding-bottom: 28px;
-  padding-left: 128px;
+  padding-left: 198px;
 }
 
 .block {
   background-color: rgb(238, 238, 238);
   padding-top: 87px;
   margin-top: -21px;
-  padding-bottom: 499px;
-  padding-left: 128px;
+  padding-bottom: 540px;
+  padding-left: 198px;
 }
 
 input[type="checkbox"] {
@@ -1097,6 +1098,7 @@ footer {
   height: 323px;
   background-color: rgb(70, 70, 70);
   color: #ffffff;
+  margin-top: 3px;
 }
 
 .devices {
@@ -1172,6 +1174,18 @@ footer .navigation-bottom h4 {
   text-align: center;
 }
 
+ .footer-social img#facebook {
+  margin: 0 0 0 0px;
+}
+
+img#insta {
+
+}
+
+img#twitter {
+
+}
+
 .footer-social a {
   margin-right: 65px;
 }
@@ -1200,8 +1214,8 @@ footer .navigation-bottom h4 {
   margin-left: 0px;
 }
 
-.footer-nav .footer-navigation-bottom li:nth-child(2) {
-  margin-left: 28px;
+.footer-nav li:nth-child(2) {
+  margin-left: 0px;
 }
 
 .footer-nav li:nth-child(3) {
