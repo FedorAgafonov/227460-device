@@ -63,7 +63,10 @@ a {
   text-decoration: none;
 }
 
+
+
 .main-header {
+  width: 1158px;
   margin-top: 60px;
 }
 
@@ -83,7 +86,7 @@ a {
 .index {
   width: 10px 10px;
   background: rgb(247, 226, 150);
-  padding-top: 33px;
+  padding-top: 16px;
 }
 
 .container {
