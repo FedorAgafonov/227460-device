@@ -23,6 +23,7 @@
 }
 
 body {
+  font-size: 15px;
   min-width: 205px;
 }
 
@@ -82,19 +83,22 @@ a {
 .index {
   width: 10px 10px;
   background: rgb(247, 226, 150);
+  padding-top: 33px;
 }
 
 .container {
-  width: 1158px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
+main {
+  width: 1440px;
+}
+
 .device {
-  margin: 0;
+  position: absolute;
+  top: -72px;
   width: 179px;
-  margin-top: -50px;
-  margin-bottom: -3px;
-  margin-left: 57px;
   font-size: 48px;
   font-family: 'Gilroyextrabold';
 }
@@ -107,39 +111,46 @@ a {
 }
 
 .search {
+  outline:none;
+  font-size: 15px;
   position: relative;
   width: 108px;
-  height: 7px;
+  height: 11px;
   margin-top: 12px;
   margin-left: 20px;
 }
 
 .search::before {
+  display: block;
   content: "";
   position: absolute;
-  top: 11px;
+  top: 12px;
   left: -15px;
   width: 16px;
   height: 16px;
 
-  background: transparent url('../img/SPRITE.png') no-repeat;
-  background-position: -22px -22px;
+  background: transparent url('../img/sprite.png') no-repeat;
+  background-position: -2px -22px;
 }
 
 .navigation-top {
+  position: relative;
   font-family: 'OpenSans-Light';
   letter-spacing: -.5px;
 }
 
 .navigation-top li:nth-child(1) {
+  position: relative;
   margin-left: 530px;
 }
 
 .navigation-top li:nth-child(2) {
+  position: relative;
   margin-left: 229px;
 }
 
 .navigation-top li:nth-child(3) {
+  position: relative;
   margin-left: 63px;
 }
 
@@ -148,6 +159,7 @@ a {
 }
 
 .purchase {
+  position: relative;
   min-width: 1039px;
   margin: 0 58px;
   margin-bottom: 22px;
@@ -174,6 +186,23 @@ a {
 
 .navigation-bottom li:nth-child(4) {
   margin-left: 95px;
+}
+
+.plus {
+  position: relative;
+}
+
+.plus::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 26px;
+  left: 235px;
+  width: 16px;
+  height: 16px;
+
+  background: transparent url('../img/sprite.png') no-repeat;
+  background-position: -22px -42px;
 }
 
 .slider {
@@ -213,8 +242,35 @@ a {
 }
 
 .bottom  {
-  font-family: 'OpenSans-Light';
-  font-size: 13px;
+  position: relative;
+  letter-spacing: 3px;
+  width: 200px;
+  font-family: 'Gilroyextrabold';
+  text-transform: uppercase;
+
+}
+
+.bottom::before {
+  position: absolute;
+  top: 6px;
+  display: block;
+  content: "";
+  height: 8px;
+  background-color: rgb(240, 197, 46);
+  min-width: 200px;
+  z-index: -1px;
+}
+
+.in_bascet {
+  position: relative;
+}
+
+.compare2 {
+  position: relative;
+}
+
+.seening {
+  position: relative;
 }
 
 td {
@@ -234,8 +290,9 @@ td {
 }
 
 .main-all {
-  width: 1158px;
+  width: 1440px;
   margin: auto;
+  margin-left: 0;
 }
 
 figure {
@@ -387,7 +444,7 @@ img#GoPro {
 
 .clearfix .btn {
   width: 160px;
-  margin-top: 47px;
+  margin-top: 37px;
 }
 
 .clearfix::after {
@@ -398,8 +455,14 @@ img#GoPro {
 }
 
 .header {
+  margin: 0;
+}
+
+.header {
+  margin: 0;
   background: rgb(247, 226, 150);
-  background-size: 1160px  1186px;
+  padding-top: 33px;
+  padding-bottom: 27px;
 }
 
 .navigation-top-catalog {
@@ -409,32 +472,115 @@ img#GoPro {
 }
 
 .navigation-top-catalog li:nth-child(1) {
-  margin-left: 530px;
+  position: relative;
+  margin-left: 532px;
 }
 
 .navigation-top-catalog li:nth-child(2) {
-  margin-left: 19px;
+  position: relative;
+  margin-left: 24px;
   opacity: .3;
 }
 
 .navigation-top-catalog li:nth-child(3) {
+  position: relative;
   margin-left: 84px;
 }
 
 .navigation-top-catalog li:nth-child(4) {
-  margin-left: 64px;
+  position: relative;
+  margin-left: 59px;
 }
+
+.user::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: -26px;
+  width: 13px;
+  height: 12px;
+
+  background: transparent url('../img/sprite.png') no-repeat;
+  background-position: -23px -24px;
+}
+
+.compare::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: -22px;
+  width: 10px;
+  height: 10px;
+
+  background: transparent url('../img/sprite.png') no-repeat;
+  background-position: -5px -45px;
+}
+
+.basket::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: -22px;
+  width: 12px;
+  height: 12px;
+
+  background: transparent url('../img/sprite.png') no-repeat;
+  background-position: -24px -4px;
+}
+
 
 .monopods {
   width: 1040px;
   height: 82px;
-  margin-left: 60px;
-  margin-top: 60px;
+  margin-left: 128px;
+  margin-top: 33px;
 }
 
 .breadcrumbs {
   width: 1040px;
-  margin: -2px 0 0 60px;
+  margin: -2px 0 0 128px;
+  opacity: .3;
+}
+
+.container .breadcrumbs a:nth-of-type(1) {
+  position: relative;
+}
+
+.container .breadcrumbs a:nth-of-type(2) {
+  position: relative;
+}
+
+.container .breadcrumbs a:nth-of-type(1)::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 69px;
+  width: 4px;
+  height: 7px;
+
+  background: transparent url('../img/sprite.png') no-repeat;
+  background-position: -8px -6px;
+}
+
+.container .breadcrumbs a:nth-of-type(2)::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 128px;
+  width: 4px;
+  height: 7px;
+
+  background: transparent url('../img/sprite.png') no-repeat;
+  background-position: -8px -6px;
+}
+
+main {
+  max-width: 1440px;
 }
 
 .breadcrumbs a {
@@ -450,12 +596,16 @@ img#GoPro {
   margin: 0;
 }
 
+.chain {
+  margin-top: -5px;
+}
+
 .line_grey {
   width: 196px;
   height: 2px;
   background-color: rgb(219, 219, 219);
   margin-left: 4px;
-  margin-top: 41px;
+  margin-top: 36px;
   margin-bottom: 85px;
 }
 
@@ -466,11 +616,60 @@ img#GoPro {
   background: rgb(145, 201, 47);
 }
 
+.range-toggle {
+  position: absolute;
+  top: -6px;
+  left: -7px;
+  width: 10px;
+  height: 10px;
+
+  background: rgb(238, 238, 238);
+  border: 2px solid #000;
+
+  border-radius: 50%;
+  cursor: pointer;
+}
+.price-controls label {
+  display: inline-block;
+
+  font-size: 14px;
+  line-height: 38px;
+  vertical-align: top;
+  margin-top: 2px;
+
+  cursor: pointer;
+  opacity: .2;
+}
+
+.range-toggle-max {
+  left: 107px;
+}
+
+.filter-range-title {
+  margin-bottom: 9px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.price-controls input {
+  width: 50px;
+  margin: 0;
+
+  color: inherit;
+  font: inherit;
+
+  background: none;
+  border: none;
+  outline: none;
+}
+
 .circles p {
   opacity: .2;
   font-size: 14px;
 }
--
+
 .circle_1 {
   position: absolute;
   top: -6px;
@@ -484,17 +683,59 @@ img#GoPro {
 }
 
 .filters {
-  width: 268px;
+  margin: 0;
+  width: 468px;
   height: 1284px;
-  margin-top: 80px;
-  margin-left: 60px;
+  margin-top: 50px;
   float: left;
 }
 
 .name-filters {
-  margin-bottom: 84px;
+  margin-top: 2px;
   font-size: 16px;
   text-transform: uppercase;
+  background: rgb(219, 219, 219);
+  padding-top: 24px;
+  padding-bottom: 28px;
+  padding-left: 128px;
+}
+
+.block {
+  background-color: rgb(238, 238, 238);
+  padding-top: 87px;
+  margin-top: -21px;
+  padding-bottom: 499px;
+  padding-left: 128px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label {
+  display: block;
+  margin-left: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="checkbox"] + label::before {
+  content: "";
+  display: block;
+  margin-left: 40px;
+  position: absolute;
+  top: -2px;
+  left: -80px;
+
+  width: 24px;
+  height: 24px;
+
+  background: rgb(219, 219, 219);
+  font-size: 24px;
+}
+
+input[type="checkbox"]:checked + label::before {
+  background: rgb(219, 219, 219) url("../img/tick.png") no-repeat 50% 50%;
 }
 
 .cost {
@@ -513,17 +754,27 @@ img#GoPro {
   margin-left: 63px;
 }
 
+.color {
+  line-height: 22px;
+  width: 118px;
+}
+
 .color h5 {
   font-size: 18px;
-  margin-bottom: 37px;
+  margin-bottom: 34px;
+}
+
+.color input:nth-child(5) {
+  margin-top: 32px;
 }
 
 .color input {
+  margin-top: -9px;
   margin-bottom: 17px;
   margin-right: 18px;
 }
 
-input#checkbox-id:nth-of-type(5) {
+input#pink {
   margin-bottom: 58px;
 }
 
@@ -537,25 +788,75 @@ input#checkbox-id:nth-of-type(5) {
 
 .question-bt {
   font-size: 18px;
-  margin-bottom: 7px;
+  margin-top: 32px;
+  margin-bottom: 14px;
 }
 
-button {
+.question-bt:last-child {
+  margin-bottom: 53px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label {
+  display: block;
+  margin-left: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="radio"] + label::before {
+  content: "";
+  display: block;
+  margin-left: 40px;
+  position: absolute;
+  top: -5px;
+  left: -79px;
+  border-radius: 50%;
+  border: 2px solid rgb(225, 225, 225);
+
+  width: 21px;
+  height: 21px;
+
+  font-size: 21px;
+}
+
+input[type="radio"]:checked + label::before {
+  background: url("../img/Shape.png") no-repeat 50% 50%;
+}
+
+.see {
+  width: 200px;
+  letter-spacing: 4px;
   margin-top: 53px;
 }
 
 .sorting {
-  width: 830px;
-  height: 70px;
-  float: left;
-  margin-top: 80px;
-  /*margin-left: 30px;*/
+  width: 972px;
+  height: 67px;
+  float: left;;
+  margin-top: 52px;
+  background: rgb(235, 235, 235);
+  padding-left: 0px;
+  padding-top: 4px;
+}
+
+.sorting .activ {
+  opacity: .3;
+}
+
+.sorting h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left: 70px;
 }
 
 .sorting li {
   display: inline-block;
   vertical-align: top;
-  margin-top: -43px;
+  margin-top: -42px;
 }
 
 .sorting li:nth-child(1) {
@@ -571,10 +872,10 @@ button {
 }
 
 .product-item {
-  margin: 70px 0 0 70px;
+  margin: 68px 0 0 70px;
   width: 760px;
   height: 1001px;
-  float: right;
+  float: left;
 }
 
 .product-item h4 {
@@ -582,35 +883,147 @@ button {
   margin-bottom: 41px;
 }
 
+.actions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 56px;
+/*  padding: 178px 0 0 80px;*/
+  margin-top: 174px;
+  margin-left: 80px;
+  text-align: center;
+}
+
+.actions .in_bascet,
+.actions .compare2 {
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+
+.actions {
+  display: none;
+}
+
+.Stick:hover .actions {
+  display: block;
+}
+
+.Smart_stick:hover .actions {
+  display: block;
+}
+
+.Water_stick:hover .actions {
+  display: block;
+}
+
+.Arm_stick:hover .actions {
+  display: block;
+}
+
+.in_bascet {
+  white-space: pre;
+  font-family: 'Gilroyextrabold';
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.compare2 {
+  font-family: 'OpenSans-Regular';
+  font-size: 13px;
+}
+
 .Stick {
+  position: relative;
   float: left;
 }
 
+.Stick:hover {
+  opacity: .7;
+}
+
+.Stick p {
+  font-size: 16px;
+  font-family: 'Gilroylight';
+  margin-left: 289px;
+  margin-top: -61px;
+}
+
 .Smart_stick {
+  position: relative;
   margin-top: 0px;
   float: right;
 }
 
+.Smart_stick:hover {
+  opacity: .7;
+}
+
+.Smart_stick h4 {
+  width: 200px;
+}
+
+.Smart_stick p {
+  font-size: 16px;
+  font-family: 'Gilroylight';
+  margin-left: 281px;
+  margin-top: -83px;
+  margin-bottom: 18px;
+}
+
 .Water_stick {
+  position: relative;
   float: left;
-  margin-top: 28px;
+  margin-top: 54px;
+}
+
+.Water_stick:hover {
+  opacity: .7;
+}
+
+.Water_stick p {
+  font-size: 16px;
+  font-family: 'Gilroylight';
+  margin-left: 277px;
+  margin-top: -61px;
 }
 
 .Arm_stick {
+  position: relative;
   float: right;
-  margin-top: 28px;
+  margin-top: 52px;
+}
+
+.Arm_stick:hover {
+  opacity: .7;
+}
+
+.Arm_stick h4 {
+  width: 170px;
+}
+
+.Arm_stick p {
+  font-size: 16px;
+  font-family: 'Gilroylight';
+  margin-left: 282px;
+  margin-top: -83px;
 }
 
 .pagination {
-  float: right;
+  text-transform: uppercase;
+  float: left;
   width: 760px;
   height: 70px;
-  margin-top: -2px;
+  margin-left: 72px;
+  padding: 1px 0;
+  background: rgb(239, 239, 239);
 }
 
 .pagination a {
   display: inline-block;
   vertical-align: top;
+  margin-top: ;
 }
 
 .prev_disabled {
@@ -634,16 +1047,38 @@ button {
 }
 
 footer {
-  margin-top: 95px;
+  height: 323px;
+  background-color: rgb(70, 70, 70);
+  color: #ffffff;
+}
+
+.devices {
+  font-family: 'Gilroyextrabold';
+  font-size: 48px;
+  margin-bottom: 29px;
+
+}
+
+.footer-contacts a {
+  color: #f7e184;
 }
 
 footer h4 {
   letter-spacing: 3px;
 }
 
+.footer-contacts {
+  margin-left: 67px;
+}
+
 .footer-contacts h1 {
   margin: 0;
   margin-bottom: 26px;
+}
+
+.footer-navigation-bottom <h4> {
+  font-size: 18px;
+  color: #ffffff;
 }
 
 .main-footer-left {
@@ -653,7 +1088,8 @@ footer h4 {
 }
 
 .main-footer-center {
-  width: 442px;
+  margin-top: 120px;
+  width: 460px;
   height: 120px;
   float: left;
   margin-left: 158px;
@@ -681,8 +1117,19 @@ footer .navigation-bottom h4 {
   float: right;
 }
 
+.header-top {
+  list-style: none;
+}
+
 .footer-copyright {
   float: right;
+}
+
+.footer-nav {
+  font-family: 'Gilroyextrabold';
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .footer-nav li:nth-child(1) {
