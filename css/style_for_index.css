@@ -83,14 +83,17 @@ a {
 }
 
 .index {
-  width: 10px 10px;
   background: rgb(247, 226, 150);
   padding-top: 16px;
+  padding-bottom: 112px;
 }
 
 .container {
   max-width: 1300px;
   margin: 0 auto;
+}
+.navigation-bottom {
+  font-family: 'Gilroyextrabold';
 }
 
 main {
@@ -139,6 +142,10 @@ main {
   position: relative;
   font-family: 'OpenSans-Light';
   letter-spacing: -.5px;
+}
+
+.compare2 {
+  margin-left: 20px;
 }
 
 .navigation-top li:nth-child(1) {
@@ -198,8 +205,8 @@ main {
   display: block;
   content: "";
   position: absolute;
-  top: 26px;
-  left: 235px;
+  top: 2px;
+  left: 217px;
   width: 16px;
   height: 16px;
 
@@ -232,14 +239,14 @@ main {
   min-height: 18px;
   float: right;
   margin-top: -189px;
-  margin-right: 469px;
+  margin-right: 339px;
 }
 
 .table {
   max-width: 425px;
   height: 65px;
   float: right;
-  margin-right: 141px;
+  margin-right: 114px;
   margin-top: -85px;
 }
 
@@ -284,18 +291,6 @@ main {
   z-index: 0;
 }
 
-.bottom::before {
-  position: absolute;
-  top: 6px;
-  display: block;
-  content: "";
-  height: 4px;
-  background-color: rgb(240, 197, 46);
-  min-width: 200px;
-  z-index: 0;
-}
-
-
 .in_bascet {
   position: relative;
 }
@@ -312,6 +307,11 @@ td {
   width: 160px;
 }
 
+.bottome {
+  font-family: 'OpenSans-Regular';
+  font-size: 13px;
+}
+
 .top h3 {
   font-family: 'OpenSans-Light';
 }
@@ -322,6 +322,8 @@ td {
 
 .goods {
   display: inline-block;
+  margin-left: 70px;
+  margin-top: 90px;
 }
 
 .main-all {
@@ -331,12 +333,42 @@ td {
 }
 
 figure {
-  width: 158px;
+  width: 159px;
   min-height: 235px;
   display: inline-block;
   vertical-align: top;
   margin: 0;
   margin-right: 37px;
+}
+
+figure img#spectacles {
+  background-color: rgb(247, 226, 150);
+  padding: 52px 32px 53px 31px;
+}
+
+figure img#selfie_stick {
+  background-color: rgb(247, 226, 150);
+  padding: 43px 36px 0px 38px;
+}
+
+figure img#Action_Camera {
+  background-color: rgb(247, 226, 150);
+  padding: 38px 40px 35px 49px;
+}
+
+figure img#bracelet {
+  background-color: rgb(247, 226, 150);
+  padding: 50px 34px 45px 37px;
+}
+
+figure img#whatch {
+  background-color: rgb(247, 226, 150);
+  padding: 32px 49px 30px 55px;
+}
+
+figure img#copter {
+  background-color: rgb(247, 226, 150);
+  padding: 49px 15px 42px 13px;
 }
 
 figure h4 {
@@ -351,28 +383,10 @@ figure:last-child {
   margin-right: 0;
 }
 
-img#spectacles {
-  margin: 52px 110px 92px 30px;
-}
-
-img#selfie_stick {
-  margin: 43px 36px 39px 38px;
-}
-
-img#Action_Camera {
-  margin: 38px 108px 74px 49px;
-}
-
-img#bracelet {
-  margin: 50px 25px 84px 28px;
-}
-
-img#whatch {
-  margin: 32px 49px 69px 55px;
-}
-
-img#copter {
-  margin: 49px 15px 81px 13px;
+.services {
+  width: 100%;
+  height: 310px;
+  background-color: #e5e5e5;
 }
 
 .services-nav {
@@ -408,7 +422,7 @@ img#copter {
 
 .heading-content {
   margin: 0;
-  margin-top: 136px;
+  margin-top: 126px;
   margin-bottom: 28px;
 }
 
@@ -463,7 +477,6 @@ img#GoPro {
 }
 
 .clearfix a {
-  max-width: 260px;
   color: #fff;
 }
 
@@ -488,10 +501,6 @@ img#GoPro {
 
   display: table;
   clear: both;
-}
-
-.header {
-
 }
 
 .header {
@@ -577,7 +586,7 @@ img#GoPro {
 
 .breadcrumbs {
   width: 1040px;
-  margin: -2px 0 0 128px;
+  margin: -2px 0 0 198px;
   opacity: .3;
 }
 
@@ -740,7 +749,7 @@ main {
   background-color: rgb(238, 238, 238);
   padding-top: 87px;
   margin-top: -21px;
-  padding-bottom: 540px;
+  padding-bottom: 558px;
   padding-left: 198px;
 }
 
@@ -1097,8 +1106,9 @@ input[type="radio"]:checked + label::before {
 footer {
   height: 323px;
   background-color: rgb(70, 70, 70);
+  width: 100%;
   color: #ffffff;
-  margin-top: 3px;
+  margin-top: 21px;
 }
 
 .devices {
@@ -1175,19 +1185,16 @@ footer .navigation-bottom h4 {
 }
 
  .footer-social img#facebook {
-  margin: 0 0 0 0px;
-}
-
-img#insta {
-
+  margin-right: 12px;
+  margin-left: 40px;
 }
 
 img#twitter {
-
+  margin-left: 12px;
 }
 
 .footer-social a {
-  margin-right: 65px;
+  margin-right: 0px;
 }
 
 .main-footer-right {
@@ -1206,22 +1213,95 @@ img#twitter {
 .footer-nav {
   font-family: 'Gilroyextrabold';
   font-size: 18px;
+  width: 500px;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
 
 .footer-nav li:nth-child(1) {
-  margin-left: 0px;
-}
-
-.footer-nav li:nth-child(2) {
-  margin-left: 0px;
+  margin-right: 34px;
 }
 
 .footer-nav li:nth-child(3) {
-  margin-left: 0px;
+  margin-right: 50px;
 }
 
+.footer-extra-nav {
+  width: 300px;
+  margin-top: 69px;
+}
+
+.footer-extra-nav ul {
+  font-family: 'OpenSans-Regular';
+  margin: 0;
+  list-style: none;
+}
+
+.footer-extra-nav li {
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+.users {
+  margin-left: -36px;
+}
+
+.users::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: -64px;
+  width: 13px;
+  height: 12px;
+
+  background: transparent url('../img/sprite_orange.png') no-repeat;
+  background-position: -3px -24px;
+}
+
+.compares {
+  margin-left: 59px;
+}
+
+.compares::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 39px;
+  width: 10px;
+  height: 10px;
+
+  background: transparent url('../img/sprite_orange.png') no-repeat;
+  background-position: -6px -6px;
+}
+
+.baskets {
+  margin-left: 51px;
+}
+
+.baskets::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 29px;
+  width: 12px;
+  height: 12px;
+
+  background: transparent url('../img/sprite_orange.png') no-repeat;
+  background-position: -23px -4px;
+}
+
+.contacts_namber {
+  margin-right: ;
+}
+
+.footer-copyright {
+  margin-top: 55px;
+}
 
 
 
@@ -1242,7 +1322,7 @@ body > * > * > * {
   background: rgba(234, 255, 45, 0.2);
   box-shadow: inset 0 0 0 2px rgb(234, 255, 45);
 }
-/*
+
 body > * > * > * > * {
   background: rgba(255, 45, 82, 0.2);
   box-shadow: 0 0 0 3px rgb(255, 45, 82);
